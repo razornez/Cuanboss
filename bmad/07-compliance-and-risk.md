@@ -30,6 +30,7 @@ Mitigation:
 
 Risk:
 - Collecting names, phone numbers, emails, and business contact data may create personal data obligations.
+- Detailed visitor/session tracking may create privacy concerns.
 
 Mitigation:
 - Collect minimum required data.
@@ -39,6 +40,9 @@ Mitigation:
 - Avoid sensitive personal data.
 - Create data retention policies.
 - Separate business/organization data from personal data when possible.
+- Default analytics tracking to anonymous/pseudonymous identifiers.
+- Avoid invasive fingerprinting.
+- Avoid surveillance-style monitoring.
 
 ### 3. Outreach Spam Risk
 
@@ -94,7 +98,7 @@ Mitigation:
 ### 7. Pricing/Cost Risk
 
 Risk:
-- The product may become expensive to operate due to AI, prospect discovery, support, or hosting costs.
+- The product may become expensive to operate due to AI, prospect discovery, support, hosting, or real-time analytics cost.
 
 Mitigation:
 - Track usage cost per tenant from day one.
@@ -102,6 +106,7 @@ Mitigation:
 - Add fair usage policies.
 - Separate self-service from managed service.
 - Recalculate pricing after pilot data.
+- Track analytics event ingestion/storage cost.
 
 ### 8. Support/Onboarding Risk
 
@@ -167,6 +172,18 @@ Every outbound message draft should:
 - Avoid pressure/manipulation.
 - Include a polite way to stop receiving messages when appropriate.
 
+### Analytics & Visitor Tracking Rules
+
+Real-time analytics and visitor intelligence features must:
+
+- Focus on business intelligence and conversion visibility.
+- Avoid invasive surveillance behavior.
+- Avoid aggressive browser/device fingerprinting.
+- Avoid storing sensitive personal information without consent.
+- Use anonymous or pseudonymous identifiers by default.
+- Clearly separate analytics events from personal lead/customer data.
+- Respect applicable privacy and retention requirements.
+
 ## Allowed/Preferred Prospect Sources
 
 Preferred:
@@ -223,3 +240,4 @@ Not unconditional revenue promises.
 - Email outreach rules and opt-out standards in target markets.
 - Data retention and deletion requirements.
 - Liability language for AI-generated business recommendations.
+- Analytics/privacy obligations for visitor tracking and live activity monitoring.
