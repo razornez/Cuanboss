@@ -70,8 +70,56 @@ Metrics:
 - Conversion rate: visitor to CTA click
 - Conversion rate: CTA click to lead
 - Page speed/technical health
+- Active visitors now
+- Repeat visitors
+- Live sessions
+- Top landing pages
+- Traffic by campaign/source
+- Real-time CTA clicks
+- Real-time conversion events
 
-### 4. Sales Funnel Metrics
+### 4. Real-Time Visitor Intelligence Metrics
+
+Purpose: help owner see live business activity and conversion behavior.
+
+Metrics:
+- Current active visitors
+- Current live sessions
+- Most viewed pages today
+- Most clicked CTA today
+- Visitor path before conversion
+- Returning visitor activity
+- Device/browser distribution
+- Campaign traffic spikes
+- Traffic changes after optimization
+- Visitor-to-lead conversion path
+
+Example live feed:
+
+```text
+10:42 WIB
+Visitor opened:
+Paket Jersey Sekolah
+
+10:43 WIB
+Visitor clicked:
+WhatsApp CTA
+
+10:44 WIB
+Visitor opened:
+Contact Page
+
+10:45 WIB
+Lead submitted:
+Quotation Request
+```
+
+Important:
+- Focus on conversion visibility and growth monitoring.
+- Avoid invasive personal tracking.
+- Anonymous/pseudonymous analytics should be default.
+
+### 5. Sales Funnel Metrics
 
 Purpose: measure movement toward closing.
 
@@ -92,7 +140,7 @@ Metrics:
 - Revenue won
 - Gross profit estimate
 
-### 5. ROI & Break-Even Metrics
+### 6. ROI & Break-Even Metrics
 
 Purpose: answer owner question: is the subscription worth it?
 
@@ -123,7 +171,7 @@ Important:
 - Separate confirmed revenue from estimated pipeline.
 - Do not count all business revenue as agent-assisted revenue.
 
-### 6. Capital Readiness Metrics
+### 7. Capital Readiness Metrics
 
 Purpose: help business become more credible for financing/investment.
 
@@ -175,6 +223,8 @@ Dashboard should answer:
 6. What revenue/gross profit is confirmed?
 7. Is the merchant moving toward break-even?
 8. What strategy should be changed next?
+9. Which pages and campaigns are driving engagement?
+10. What are visitors doing right now?
 
 ## Success Risk
 
