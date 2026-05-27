@@ -20,7 +20,7 @@ UMKM owner/operator who needs more customers, better follow-up, better sales pip
 4. When I am busy, I want the system to give me prioritized daily tasks so I know what to do next.
 5. When leads come in, I want the system to track them, guide follow-up, and help me close.
 6. When prospects ask for pricing, I want the system to help prepare quotations quickly.
-7. When I want to know whether the system is working, I want live reports showing tasks, leads, prospects, follow-ups, pipeline, orders, and ROI.
+7. When I want to know whether the system is working, I want live reports showing tasks, leads, prospects, follow-ups, pipeline, orders, ROI, and live visitor activity.
 8. When I need capital, I want the system to help organize my business data and recommend readiness steps.
 
 ## Core Modules
@@ -182,6 +182,49 @@ Owner should see:
 - WhatsApp CTA clicks
 - Break-even/ROI estimate
 - Capital readiness progress
+- Live visitor activity and conversion flow
+
+### 8A. Live Visitor Intelligence & Conversion Monitoring
+
+Purpose:
+- Show the direct impact of website, landing page, campaign, and agent activity in real time.
+- Make the business feel alive and measurable.
+
+Live activity examples:
+- Visitor opened product landing page
+- Visitor clicked WhatsApp CTA
+- Visitor viewed contact page
+- Returning visitor revisited portfolio page
+- Visitor submitted inquiry form
+
+Tracked events:
+- page_view
+- session_start
+- CTA_click
+- WhatsApp_click
+- form_submit
+- quotation_request
+- repeat_visit
+- campaign_visit
+
+Suggested event fields:
+- timestamp
+- page_url
+- referrer
+- campaign_source
+- device_type
+- browser
+- operating_system
+- city/country
+- anonymous_visitor_id
+- session_id
+- tenant_id
+
+Important:
+- Focus on business intelligence and conversion visibility.
+- Default tracking should be anonymous/pseudonymous.
+- Do not become invasive surveillance or spyware.
+- Avoid sensitive personal data collection.
 
 ### 9. Capital Readiness Agent
 
@@ -215,6 +258,8 @@ MVP includes:
 9. Quotation draft
 10. Live report dashboard
 11. KPI tracking
+12. Real-time visitor analytics
+13. CTA and conversion event tracking
 
 MVP excludes:
 - Fully automated cold WhatsApp blasting
@@ -236,7 +281,7 @@ A pilot merchant is considered successfully onboarded when:
 - At least 10 daily tasks created with reasons and expected impact
 - At least 5 follow-up/outreach drafts created
 - At least 1 quotation workflow tested
-- Dashboard shows tasks, prospects, leads, and pipeline metrics
+- Dashboard shows tasks, prospects, leads, pipeline, and live visitor activity
 
 ## Key Open Questions
 
